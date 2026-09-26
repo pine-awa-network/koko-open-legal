@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ここOPEN 利用規約</title>
+<style>
+  :root {
+    --bg: #f6f7f5;
+    --surface: #ffffff;
+    --ink: #1a1d1b;
+    --ink-muted: #5b6560;
+    --line: #dce1dd;
+    --accent: #1f7a5a;
+    --accent-soft: #e6f2ec;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141815;
+      --surface: #1b201d;
+      --ink: #eef1ee;
+      --ink-muted: #9aa6a0;
+      --line: #2c332e;
+      --accent: #4fbd8f;
+      --accent-soft: #1e2e27;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141815;
+    --surface: #1b201d;
+    --ink: #eef1ee;
+    --ink-muted: #9aa6a0;
+    --line: #2c332e;
+    --accent: #4fbd8f;
+    --accent-soft: #1e2e27;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans JP", "Hiragino Sans", sans-serif;
+    line-height: 1.85;
+    padding-inline: 20px;
+    padding-block: 48px;
+  }
+  .page { max-width: 720px; margin: 0 auto; }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  .brand-mark {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+  .brand-name {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: var(--ink-muted);
+  }
+  h1 {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: clamp(26px, 5vw, 34px);
+    letter-spacing: 0.01em;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .meta {
+    color: var(--ink-muted);
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  .lead {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+    font-size: 15px;
+    color: var(--ink-muted);
+    margin-bottom: 40px;
+  }
+  section { margin-bottom: 36px; }
+  .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    padding-inline: 6px;
+    border-radius: 7px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-family: "Noto Serif JP", serif;
+    font-size: 19px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+  p { margin: 0 0 12px; font-size: 15px; }
+  ol {
+    margin: 0 0 12px;
+    padding-left: 22px;
+    font-size: 15px;
+  }
+  li { margin-bottom: 8px; }
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--ink-muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="brand">
+    <div class="brand-mark">koko</div>
+    <div class="brand-name">ここOPEN</div>
+  </div>
+
+  <h1>利用規約</h1>
+  <div class="meta">制定日：2026年9月26日</div>
+
+  <p class="lead">
+    この利用規約（以下「本規約」といいます）は、P.A.ネットワーク（以下「当方」といいます）が提供するアプリケーション「ここOPEN」（以下「本アプリ」といいます）の利用条件を定めるものです。ユーザーの皆様には、本規約に同意のうえ、本アプリをご利用いただきます。
+  </p>
+
+  <section>
+    <h2><span class="num">1</span>適用</h2>
+    <p>本規約は、ユーザーと当方との間の本アプリの利用に関わる一切の関係に適用されるものとします。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>サービスの内容</h2>
+    <ol>
+      <li>本アプリは、Google Places API等の情報および、X（旧Twitter）上の公開投稿等をもとに、新規開店・開店予定の店舗情報等を地図上に表示するサービスです。</li>
+      <li>本アプリで表示される店舗の開店状況、開店予定日、信頼度等の情報は、当方が独自の基準に基づき推定・分類したものであり、実際の状況と異なる場合があります。当方は、これらの情報の正確性、完全性、最新性についていかなる保証も行いません。</li>
+      <li>ユーザーは、本アプリの情報を参考情報として利用するものとし、実際に店舗を訪問する際は、事前に店舗自身の発信する情報等でご確認いただくようお願いいたします。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>禁止事項</h2>
+    <p>ユーザーは、本アプリの利用にあたり、以下の行為をしてはなりません。</p>
+    <ol>
+      <li>法令または公序良俗に違反する行為</li>
+      <li>当方または第三者の知的財産権、肖像権、プライバシー、名誉その他の権利または利益を侵害する行為</li>
+      <li>本アプリのシステムに不正にアクセスし、またはこれを妨害する行為</li>
+      <li>本アプリを逆コンパイル、逆アセンブル、リバースエンジニアリングする行為</li>
+      <li>本アプリを利用して得られる情報を、当方の許諾なく商業目的で利用する行為</li>
+      <li>その他、当方が不適切と判断する行為</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span>本アプリの提供の停止等</h2>
+    <p>当方は、以下のいずれかに該当する場合、ユーザーに事前に通知することなく、本アプリの全部または一部の提供を停止または中断することができるものとします。</p>
+    <ol>
+      <li>本アプリにかかるシステムの保守点検または更新を行う場合</li>
+      <li>外部サービス（Google Places API、X API、Supabase等）の提供が停止・変更された場合</li>
+      <li>その他、当方が停止または中断を必要と判断した場合</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>免責事項</h2>
+    <ol>
+      <li>当方は、本アプリに事実上または法律上の瑕疵がないことを明示的にも黙示的にも保証しておりません。</li>
+      <li>当方は、本アプリの情報を信頼したことにより生じたいかなる損害についても、当方に故意または重大な過失がある場合を除き、一切の責任を負いません。</li>
+      <li>当方は、本アプリに関してユーザーと第三者との間において生じた取引、連絡、紛争等について一切責任を負いません。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>知的財産権</h2>
+    <p>本アプリに関する著作権、商標権その他の知的財産権は、当方または正当な権利を有する第三者に帰属します。本アプリで表示される情報のうち、Google Places APIやXから取得した情報については、それぞれの権利者に権利が帰属します。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span>利用規約の変更</h2>
+    <p>当方は、必要と判断した場合には、ユーザーに通知することなく本規約を変更できるものとします。変更後の利用規約は、本アプリ内に表示した時点から効力を生じるものとします。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span>準拠法・裁判管轄</h2>
+    <ol>
+      <li>本規約の解釈にあたっては、日本法を準拠法とします。</li>
+      <li>本アプリに関して紛争が生じた場合には、当方の所在地を管轄する裁判所を専属的合意管轄とします。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="num">9</span>お問い合わせ</h2>
+    <p>本規約に関するお問い合わせは、p.a.network1999@gmail.comまでお願いいたします。</p>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 P.A.ネットワーク</span>
+    <span id="cross-link-slot"><a href="privacy-policy.html">プライバシーポリシーはこちら</a></span>
+  </footer>
+</div>
+</body>
+</html>
