@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ここOPEN プライバシーポリシー</title>
+<style>
+  :root {
+    --bg: #f6f7f5;
+    --surface: #ffffff;
+    --ink: #1a1d1b;
+    --ink-muted: #5b6560;
+    --line: #dce1dd;
+    --accent: #1f7a5a;
+    --accent-soft: #e6f2ec;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141815;
+      --surface: #1b201d;
+      --ink: #eef1ee;
+      --ink-muted: #9aa6a0;
+      --line: #2c332e;
+      --accent: #4fbd8f;
+      --accent-soft: #1e2e27;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141815;
+    --surface: #1b201d;
+    --ink: #eef1ee;
+    --ink-muted: #9aa6a0;
+    --line: #2c332e;
+    --accent: #4fbd8f;
+    --accent-soft: #1e2e27;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans JP", "Hiragino Sans", sans-serif;
+    line-height: 1.85;
+    padding-inline: 20px;
+    padding-block: 48px;
+  }
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  .brand-mark {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+  .brand-name {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: var(--ink-muted);
+  }
+  h1 {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: clamp(26px, 5vw, 34px);
+    letter-spacing: 0.01em;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .meta {
+    color: var(--ink-muted);
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  .lead {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+    font-size: 15px;
+    color: var(--ink-muted);
+    margin-bottom: 40px;
+  }
+  section { margin-bottom: 36px; }
+  .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    padding-inline: 6px;
+    border-radius: 7px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-family: "Noto Serif JP", serif;
+    font-size: 19px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+  h3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15.5px;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 20px 0 8px;
+  }
+  p { margin: 0 0 12px; font-size: 15px; }
+  ul, ol {
+    margin: 0 0 12px;
+    padding-left: 22px;
+    font-size: 15px;
+  }
+  li { margin-bottom: 6px; }
+  .fields {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .fields li {
+    display: flex;
+    gap: 14px;
+    padding: 14px 18px;
+    margin: 0;
+    font-size: 14.5px;
+  }
+  .fields li + li { border-top: 1px solid var(--line); }
+  .fields dt {
+    color: var(--ink-muted);
+    min-width: 6.5em;
+    flex-shrink: 0;
+  }
+  .fields dd { margin: 0; word-break: break-all; }
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--ink-muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="brand">
+    <div class="brand-mark">koko</div>
+    <div class="brand-name">ここOPEN</div>
+  </div>
+
+  <h1>プライバシーポリシー</h1>
+  <div class="meta">制定日：2026年9月26日</div>
+
+  <p class="lead">
+    P.A.ネットワーク（以下「当方」といいます）は、当方が提供するアプリケーション「ここOPEN」（以下「本アプリ」といいます）における、ユーザーの個人情報の取り扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。
+  </p>
+
+  <section>
+    <h2><span class="num">1</span>事業者情報</h2>
+    <dl class="fields">
+      <li><dt>名称</dt><dd>P.A.ネットワーク</dd></li>
+      <li><dt>連絡先</dt><dd>p.a.network1999@gmail.com</dd></li>
+    </dl>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>取得する情報</h2>
+    <p>本アプリは、以下の情報を取得することがあります。</p>
+
+    <h3>(1) 位置情報</h3>
+    <p>本アプリは、現在地周辺の店舗情報を表示するため、端末の位置情報（GPS等）を取得します。位置情報の取得には、OSの許可（「アプリの使用中のみ許可」）が必要であり、ユーザーはいつでも端末の設定から許可を取り消すことができます。取得した位置情報は、店舗検索のためのサーバーへの問い合わせにのみ利用され、当方のサーバー上に保存・蓄積されることはありません。また、氏名等の個人を特定する情報と紐付けて管理することもありません。</p>
+
+    <h3>(2) お気に入り情報</h3>
+    <p>ユーザーが本アプリ内で「お気に入り」に登録した店舗の情報は、ユーザーの端末内にのみ保存され、当方のサーバーには送信・保存されません。アプリのアンインストールや、アプリ内の「お気に入りを全て削除」機能により、いつでも削除できます。</p>
+
+    <h3>(3) その他</h3>
+    <p>本アプリでは、現時点でユーザーアカウントの作成や、氏名・メールアドレス等の個人情報の入力を求める機能はありません。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>利用目的</h2>
+    <p>取得した情報は、以下の目的にのみ利用します。</p>
+    <ul>
+      <li>現在地周辺の店舗情報を地図上に表示するため</li>
+      <li>新着店舗情報をユーザーの現在地に基づいて表示するため</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span>第三者提供・外部サービスの利用</h2>
+    <p>本アプリは、以下の外部サービスを利用しています。それぞれのサービスにおける情報の取り扱いは、各サービス提供者のプライバシーポリシーに従います。</p>
+    <ul>
+      <li>Google Maps Platform（地図表示、位置情報関連機能）</li>
+      <li>Google Play services（位置情報の取得等）</li>
+      <li>Supabase（本アプリのデータを処理するためのサーバーインフラストラクチャ）</li>
+    </ul>
+    <p>当方は、法令に基づく場合を除き、取得した情報を本人の同意なく第三者に提供することはありません。また、本アプリは広告を表示せず、広告事業者への情報提供も行いません。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>表示される店舗情報について</h2>
+    <p>本アプリで表示される店舗の開店状況等の情報は、Google Places APIおよびX（旧Twitter）上の公開投稿等の情報をもとに、当方が独自に推定・分類したものです。情報の正確性・最新性を保証するものではありません。詳しくは利用規約もあわせてご確認ください。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>データの保存期間</h2>
+    <ul>
+      <li>位置情報：当方のサーバーには保存されません。</li>
+      <li>お気に入り情報：ユーザーが端末内で削除するまで、または本アプリをアンインストールするまで保持されます。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span>ユーザーの権利</h2>
+    <p>ユーザーは、いつでも以下を行うことができます。</p>
+    <ul>
+      <li>端末の設定から、本アプリに対する位置情報の許可を取り消すこと</li>
+      <li>本アプリ内の「設定」画面から、お気に入り情報を全て削除すること</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span>本ポリシーの変更</h2>
+    <p>当方は、必要に応じて本ポリシーの内容を変更することがあります。変更後のポリシーは、本アプリ内または当方が指定する方法で公表した時点から効力を生じるものとします。</p>
+  </section>
+
+  <section>
+    <h2><span class="num">9</span>お問い合わせ</h2>
+    <p>本ポリシーに関するお問い合わせは、上記1記載の連絡先までお願いいたします。</p>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 P.A.ネットワーク</span>
+    <span id="cross-link-slot"><a href="terms-of-service.html">利用規約はこちら</a></span>
+  </footer>
+</div>
+</body>
+</html>
